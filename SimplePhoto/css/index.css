@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header, main, footer {
+    display: block;
+    width: 1280px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    text-align: center;
+}
+.menu-item {
+    display: inline;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+.menu-item a {
+    color: #FF0000;
+}
+h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 3.3px;
+}
+p {
+    margin: 0;
+    padding-top: 28px;
+    padding-left: 67.5px;
+    padding-right: 67.5px;
+    color: #373737;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2.4px;
+}
+.btn {
+    width: 191px;
+    height: 34px;
+    border-radius: 4px;
+    display: block;
+    margin: 66px auto 42px auto;
+    padding: 19px 0 0 0;
+    background-color: #FF0000;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+.footer-bar{
+    height: 108px;
+}
+.text-footer {
+    display: block;
+    padding: 40px 105px 29px 700px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+}
